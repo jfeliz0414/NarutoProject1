@@ -1,0 +1,38 @@
+﻿
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box-one {
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    background-color: rgba(148, 198, 228, 0.90);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid;
+    margin: 10px;
+    height: 5vh;
+    min-width: 20px;
+    max-width: 100px;
+}
+
+.box-two {
+    text-decoration: none;
+    position: absolute;
+    left: 20px;
+    background-color: rgba(148, 198, 228, 0.90);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 5px solid;
+    margin: 10px;
+    height: 5vh;
+    min-width: 20px;
+    max-width: 100px;
+}
+
+@media (text: color #ff0000) {
+
+}

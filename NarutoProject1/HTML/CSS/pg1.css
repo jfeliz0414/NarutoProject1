@@ -10,6 +10,12 @@
     body {
         color: blue;
     }
+    @media img-Naruto and (max-width:800px) {
+        body{
+            color:rgba(148, 198, 228, 0.90)
+        }
+
+    }
 }
 #container {
     min-height: 100%;
@@ -17,11 +23,23 @@
 }
 
 #header {
-    background: rgba(148, 198, 228, 0.90);
-    padding: 10px;
+    text-align: center;
+    
+    text-anchor: middle;
+    line-height: 50%;
+    background: rgb(187, 30, 30);
+    margin:auto; /*centers my header*/
+    width: auto; /*centers my text?*/
+    padding: 50px;
+    box-sizing: border-box;
+    border: 10px solid;
+    height: 5vh;
+   
 }
 
 #body {
+    position: relative;
+    margin-top: 100px;
     padding: 10px;
     padding-bottom: 60px;
 }
@@ -41,9 +59,11 @@ h1 {
 }
 
 .img-Naruto {
-    width: 17.5%;
-    height: 60vh;
+    max-width: 25%;
+    max-height: 60vh;
+    margin:auto;
     border-radius: 10px;
+
 }
 
 .allign-test {
